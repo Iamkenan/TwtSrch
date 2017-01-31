@@ -9,10 +9,10 @@ var myWiki = angular.module('Twapp',[]);
 myWiki.controller('TweetyCtrl', function($scope, $http){
   $scope.fart = 'rabbit';
 
-  var key = 'qV5AsSnMTIVuywvq60iHI5Ilt';
-  var secret = 'urrV7rPHk6yoOzy2f0tQWQzfQZz9nLjdiMcXaTe3I3OCCHiAs8';
-  var token = '77668395-g5Hzp0vHxiCbtGcPmAVlGb3N1o7it4zgWbvt766Rb';
-  var tokret = 'zCRItnnpoOuwkcfadKsFUQQBKzONqkY4rEDDaAtFcteLh';
+  var key = '';
+  var secret = '';
+  var token = '';
+  var tokret = '';
 
   $scope.searchit = function(){
 
